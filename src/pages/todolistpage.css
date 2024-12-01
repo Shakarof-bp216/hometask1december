@@ -1,0 +1,26 @@
+.myform{
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.myinp{
+    height: 30px;
+    font-size: 20px;
+    
+}
+.mybtn{
+    height: 30px;
+    width: 50px;
+}
+.myvalue{
+    text-align: center;
+    font-size: 20px;
+   
+}
+.mysddedlist{  
+    margin: 10px;
+}

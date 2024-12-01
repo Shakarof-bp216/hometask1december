@@ -1,0 +1,90 @@
+/* <!-- navbar Start --> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,li,ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    box-shadow: -1px -15px 20px 20px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.hidden_box{
+    min-height: 100px;
+    width: 100%;
+}
+.mylogo{
+    height: 39px;
+    width: 50px;
+}
+
+.contanier {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar_flexbox {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_start_bootstrap {
+    padding: 20px 0;
+    font-family: sans-serif;
+}
+
+.navbar_hidden_menu {
+    display: none;
+    border: 1px solid #64a19d;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-family: sans-serif;
+
+}
+
+.navbar_hidden_menu i {
+    margin-left: 6px;
+}
+
+.navbar_right_menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 60px 0;
+    font-family: sans-serif;
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .navbar_right_menu {
+        display: none;
+    }
+
+    .navbar_hidden_menu {
+        display: block;
+    }
+
+}
+
+/* <!-- navbar end --> */
+
